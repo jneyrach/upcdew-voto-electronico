@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Time Manager</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="css/thickbox.css" type="text/css" media="screen" />
+
+<script type="text/javascript" src="js/jquery.js"></script> 
+<script type="text/javascript" src="js/thickbox.js"></script>
+
+</head>
+
+<body>
+<!--TopPan-->
+<div id="topPan">
+
+	<h1><div class="titulo">Eleccion del delegado de Diseño de Base de Datos</div></h1>
+</div>
+
+<div id="topPan" style="height:30px;padding-left:15px;">
+	<ul>
+		<li class="home">Primera Vuelta</li>
+		<li class="menupadding"><a href="segunda_vuelta.html">Segunda Vuelta</a></li>
+	</ul>
+</div>
+
+<!--TopPan Close-->
+<!--BodyPan-->
+
+<div id="bodyPan">
+	<h1><span>Estado : NO INICIADO</span></h1>
+	<p class="bigtext">Elija una opción.</p>
+
+<br/>
+<p class="morenext"><a href="#TB_inline?height=155&width=300&inlineId=iniciar&modal=true" class="thickbox">INICIAR</a></p>
+<p class="morenext"><a href="#TB_inline?height=155&width=300&inlineId=cerrar&modal=true" class="thickbox">CERRAR</a></p>
+<p class="morenext"><a href="resultados.doc" >RESULTADOS</a></p>
+
+<div id="iniciar" style="display:none">
+	<p style="text-align: center;margin-top:50px;">
+		<b>¿Est&aacute; seguro de iniciar la votaci&oacute;n?</b>
+	</p>
+	<p style="text-align: center;">
+		<input type="button" onclick="tb_remove()" value="Si" id=""/>
+		<input type="button" onclick="tb_remove()" value="No" id=""/>
+	</p>
+</div>	
+
+<div id="cerrar" style="display:none">
+	<p style="text-align: center;margin-top:50px;">
+		<b>¿Est&aacute; seguro de cerrar la votaci&oacute;n?</b>
+	</p>
+	<p style="text-align: center;">
+		<input type="button" onclick="tb_remove()" value="Si" id=""/>
+		<input type="button" onclick="tb_remove()" value="No" id=""/>
+	</p>
+</div>	
+
+</div>
+<div id="bodybottomPan">&nbsp;</div>
+
+
+
+<!--BodyPan Close-->
+<!--FooterPan-->
+</body>
+</html>
